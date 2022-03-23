@@ -8,7 +8,7 @@
 </head>
 <body>
 	<!--  만약 에러가 뜬다면 다른 페이지로 이동 -->
-	<%@ page errorPage = "err/error500.jsp" %>
+	<%@ page errorPage = "./error500.jsp" %>
 	<%= 100/0 %>
 </body>
 </html>
